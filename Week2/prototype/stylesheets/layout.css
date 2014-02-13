@@ -26,7 +26,7 @@ body {
 }
 
 .wrap{
-	width:960px;
+	max-width:960px;
 	margin:100px auto;
 	background-color:#fff;
 	border-radius:3px;
@@ -76,6 +76,28 @@ p{
 
 }
 
+ h6{
+  background-color:#edf1f2;
+  font-family: 'Open Sans', sans-serif;
+  color:#2c353a;
+  font-size:26px;
+  padding:10px;
+  margin-bottom:25px;
+ }
+
+ .center{
+ 	text-align:center;
+ }
+
+.red{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+	font-size:12px;
+	color:#e27036;
+	display:block;
+
+}
+
 .right{
 	float:right;
 	margin-top:-20px;
@@ -84,6 +106,7 @@ p{
 
 
 .logo{
+	min-width:960px;
 
 	display:inline;
 	padding-top:10px;
@@ -129,11 +152,36 @@ p{
 	
 }
 
+.wrap-search {
+	background-color:#fff;
+	width:100%;
+	padding-bottom:30px;
+	color:#fff;
+
+	
+	
+}
+
+.wrap-footer {
+	background-image:url("../images/footerbg.png");
+	width:100%;
+	height:55px;
+	
+}
+
+.wrap-footer p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight:300;
+	font-size:14px;
+	color:#fff;
+	padding-top:15px;
+	padding-left:10px;
+}
+
 .wrap-spotlight h3 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight:300;
 	font-size:24px;
-	color:#4d4d4d;
 	
 	
 	
@@ -209,12 +257,191 @@ p{
   transition: background-color 500ms ease;
 }
 
+.button4 {
+  padding: 10px 85px;
+  margin-top:85px;
+  border-radius: 3px;
+  background-color: #e47638;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:600;
+  text-transform:uppercase;
+  color: #fff;
+  font-size: 1em;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom:100px;
+}
+.button4:hover {
+  background-color: #cf6c34;
+  color:#fff;
+  -webkit-transition: background-color 500ms ease;
+  -o-transition: background-color 500ms ease;
+  -moz-transition:background-color 500ms ease;;
+  transition: background-color 500ms ease;
+}
+
 .left{
 	float:left;
 	margin-right:15px;
 
 }
 
+.ct-input,.ct-select{
+  display:inline-block;
+  width:200px;
+  padding:8px 10px;
+  margin-bottom:10px;
+  margin-top:5px;
+  font-size:14px;
+  line-height:1.428571429;
+  color:#555555;
+  vertical-align:middle;
+  background-color:#ffffff;
+  border:1px solid #cccccc;
+  box-shadow:inset 0 1px 1px rgba(0,0,0,0.075)}
+
+  .ct-input:-moz-placeholder,.ct-select:-moz-placeholder{color:#999} 
+
+.ct-input::-moz-placeholder,.ct-select::-moz-placeholder{color:#999} 
+
+.ct-input:-ms-input-placeholder,.ct-select:-ms-input-placeholder{color:#999} 
+
+.ct-input::-webkit-input-placeholder,.ct-select::-webkit-input-placeholder{color:#999} 
+
+.ct-input:focus,.ct-select:focus{
+  border-color:rgba(236,140,64,0.8);
+  outline:0;
+  box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(236,140,64,0.6)} 
+
+
+.t-input,.t-select{
+  display:block;
+  width:200px;
+  padding:8px 10px;
+  margin-bottom:10px;
+  margin-top:5px;
+  margin-left:15px;
+  font-size:14px;
+  line-height:1.428571429;
+  color:#555555;
+  vertical-align:middle;
+  background-color:#ffffff;
+  border:1px solid #cccccc;
+  box-shadow:inset 0 1px 1px rgba(0,0,0,0.075)}
+
+  .t-input:-moz-placeholder,.t-select:-moz-placeholder{color:#999} 
+
+.t-input::-moz-placeholder,.t-select::-moz-placeholder{color:#999} 
+
+.t-input:-ms-input-placeholder,.t-select:-ms-input-placeholder{color:#999} 
+
+.t-input::-webkit-input-placeholder,.t-select::-webkit-input-placeholder{color:#999} 
+
+.t-input:focus,.t-select:focus{
+  border-color:rgba(236,140,64,0.8);
+  outline:0;
+  box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(236,140,64,0.6)} 
+
+    label{
+    padding-left:10px;
+    width:5em;
+    float:left;
+    padding-right:15px;
+    
+   
+
+    padding-top:10px;
+  }
+
+
+.modalDialog {
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 99999;
+  opacity:0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+
+
+.modalDialog:target {
+  opacity:1;
+  pointer-events: auto;
+}
+
+.modalDialog > div {
+  width: 400px;
+  position: relative;
+  margin: 10% auto;
+  height:240px;
+ 
+  border-radius: 10px;
+  background: #fff;
+  
+}
+
+
+
+.modalDialog2 {
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 99999;
+  opacity:0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+
+
+.modalDialog2:target {
+  opacity:1;
+  pointer-events: auto;
+}
+
+.modalDialog2 > div {
+  width: 400px;
+  position: relative;
+  margin: 10% auto;
+  height:290px;
+ 
+  border-radius: 10px;
+  background: #fff;
+  
+}
+
+.close {
+  background: #e27036;
+  color: #FFFFFF;
+  line-height: 25px;
+  position: absolute;
+  right: -12px;
+  text-align: center;
+  top: -10px;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #ec8c40; }
 
 a{
 	text-decoration:none;
