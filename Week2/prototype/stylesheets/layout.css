@@ -85,6 +85,23 @@ p{
   margin-bottom:25px;
  }
 
+ a.actions{
+ 	font-size:14px;
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-weight:400;
+ 	display:inline;
+ 	margin-right:60px;
+ 	color:#e9763b;
+
+
+ }
+
+  a.actions:hover{
+ 	color:#616161;
+
+
+ }
+
  .center{
  	text-align:center;
  }
@@ -458,11 +475,12 @@ a{
 }
 
 .description h2{
-
+	display:inline;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:400;
 	font-size:18px;
 	margin-bottom:-15px;
+	margin-right:80px;
 	
 
 }
