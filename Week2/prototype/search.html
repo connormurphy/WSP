@@ -41,25 +41,128 @@
 	<!-- Primary Page Layout
 	================================================== -->
 
-	
-
-<div class="wrap-header">
+<div class="wrap">
 	<div class="container">
+		<div class="wrap-header">
+			<div class="two columns">
+				<div class="logo">
+				<a href="index.html"><img src="images/logo4.png"></a>
+				</div>
+			</div>
+		
+		<div class="fourteen columns">
 		<ul class="nav">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="search.html">Search</a></li>
-			<li><a href="results.html">Results</a></li>
 			<li><a href="library.html">Library</a></li>
-			<li><a href="login.html">Log In</a></li>
-			<li><a href="signup.html">Sign Up</a></li>
+			<li><a href="search.html">Search</a></li>
+
+
+			<li><a href="#openModal">Login</a></li>
+
+			<div id="openModal" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+		<h6>Please Log In</h6>
+		<label for="name">Username</label>
+		<input class="t-input" type="text" name="name" maxlength="60">
+		<label for="description">Password</label>
+			<input class="t-input" type="password"  name="password" maxlength="60"><br>
+
+			
+
+			
+
+			<div class="center"><a class="button3" href="library.html">Log In</a></div>
+
+
+
+			
+	</div>
+	</div>
+
+
+		<div id="openModal2" class="modalDialog2">
+	<div>
+		<a href="#close" title="Close" class="close">X</a>
+		<h6>Create an account</h6>
+		<label for="name">Username</label>
+		<input class="t-input" type="text" name="name" maxlength="60">
+		<label for="description">Password</label>
+			<input class="t-input" type="password"  name="password" maxlength="60">
+			<label for="name">Email</label>
+		<input class="t-input" type="text" name="name" maxlength="60"><br>
+
+			
+
+			
+
+			
+
+			<div class="center"><a class="button3" href="library.html">Sign Up</a></div>
+
+
+
+			
+	</div>
+	</div>
+
+
+			<li><a href="#openModal2">Register</a></li>
+			
 		</ul>
+		</div><!-- ends 14 col -->
+		</div><!-- ends wrap-header -->
 
 		
-
-
 	</div><!-- container -->
-</div>
 
+
+	
+	<div class="header-img">
+		<img src="images/headerimg.png">
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="wrap-search">
+		<div class="container">
+			<div class="sixteen columns">
+				<h2>Search</h2>
+				<span class="red">* Not all fields required</span>
+
+				<input class="ct-input" type="text" name="name" placeholder="Song Title" maxlength="60">
+				<input class="ct-input" type="text" name="name" placeholder="Artist Name" maxlength="60">
+				<input class="ct-input" type="text" name="name" placeholder="Album Name" maxlength="60">
+				<input class="ct-input" type="text" name="name" placeholder="Genre" maxlength="60">
+				<input class="ct-input" type="text" name="name" placeholder="Record Label" maxlength="60">
+				<input class="ct-input" type="text" name="name" placeholder="Producer" maxlength="60">
+				<input class="ct-input" type="text" name="name" placeholder="Year Made" maxlength="60">
+
+				<a class="button4" href="results.html">Search</a>
+
+			</div><!-- ends 16 col -->
+		</div><!-- ends container -->
+	</div><!-- ends search -->
+
+
+	<div class="container">
+
+		<div class="wrap-footer">
+			<p>© 2014</p>
+		</div>
+	</div>
+</div><!-- ends wrap -->
 
 <!-- End Document
 ================================================== -->
