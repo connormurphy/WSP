@@ -98,8 +98,8 @@ a.actions{
  	color:#e9763b;
 }
 
-  a.actions:hover{
- 	color:#616161;
+a.actions:hover{
+	color:#616161;
 }
 
  .center{
@@ -352,7 +352,6 @@ label{
   pointer-events: none;
 }
 
-
 .modalDialog:target {
   opacity:1;
   pointer-events: auto;
@@ -467,18 +466,12 @@ p{
 
 .header-img {
   display:none;
-
-
 }
 
  a.actions{
-  
   display:block;
   margin-right:20px;
-  
-
-
- }
+}
 
 
   }
@@ -495,7 +488,7 @@ p{
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
     .nav li{
-  margin-right:15px;
+      margin-right:15px;
 }
 
 .wrap-spotlight h3 {
@@ -513,10 +506,8 @@ p{
   font-size:14px;
   margin-bottom:-15px;
   margin-right:80px;
-  
-
 }
 
-  }
+  } 
 
 
